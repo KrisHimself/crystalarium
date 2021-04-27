@@ -37,6 +37,23 @@ section {
 	background-color: #151b29;
 }
 
+.search-button {
+  background: none;
+	color: rgb(168, 0, 168);
+	border: 2px solid;
+	padding: 0 1.5em;
+	font-size: 1em;
+	transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.search-button:hover {
+  border-color: rgb(255, 104, 255);
+	color: white;
+	box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 104, 255);
+	transform: translateY(-0.10em);
+	cursor: pointer;
+}
+
 .section-features h3 {
 	font-size: 1.4em;
 	font-weight: 300;
