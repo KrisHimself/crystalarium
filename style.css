@@ -15,8 +15,12 @@ section {
 }
 
 .section-header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	/* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 		url(https://images.unsplash.com/photo-1547413749-dd39525702cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(https://images.unsplash.com/photo-1616416370996-e689462e0eff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2726&q=80); */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(https://images.unsplash.com/photo-1617190764632-9fa54baf97b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2549&q=80);
 	background-size: cover;
 	background-position: bottom;
 	height: calc(100vh - 56px);
@@ -38,7 +42,7 @@ section {
 }
 
 .search-button {
-  background: none;
+	background: none;
 	color: rgb(168, 0, 168);
 	border: 2px solid;
 	padding: 0 1.5em;
@@ -47,7 +51,7 @@ section {
 }
 
 .search-button:hover {
-  border-color: rgb(255, 104, 255);
+	border-color: rgb(255, 104, 255);
 	color: white;
 	box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 104, 255);
 	transform: translateY(-0.10em);
